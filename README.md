@@ -15,11 +15,9 @@ Add user user-id/group-id to /usr/ports/UIDs and /usr/ports/GIDs
 
 
 ```
-  sudo perl -pi.bak -e 's;^# free: 783;cardano:*:783:783::0:0:Cardano Daemon:/nonexistent:/usr/sbin/nologin;g' /usr/ports/UIDs
-```
+sudo perl -pi.bak -e 's;^# free: 783;cardano:*:783:783::0:0:Cardano Daemon:/nonexistent:/usr/sbin/nologin;g' /usr/ports/UIDs
 
-```
-  sudo perl -pi.bak -e 's;^# free: 783;cardano:*:783:;g' /usr/ports/GIDs
+sudo perl -pi.bak -e 's;^# free: 783;cardano:*:783:;g' /usr/ports/GIDs
 ```
 
 This allows the port, once completed, to create the ***cardano*** user/group on the system
@@ -30,8 +28,8 @@ system.
 Copy or clone this project under /usr/ports/net-p2p. For example as root:
 
 ```
-  cd /usr/ports/
-  sudo git clone https://github.com/cardano-bsd-alliance/cardano-node.git
+cd /usr/ports/net-p2p
+sudo git clone https://github.com/cardano-bsd-alliance/cardano-node.git
 ```
 
 Try and build the port:
