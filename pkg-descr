@@ -1,0 +1,10 @@
+Cardano is a decentralized third-generation proof-of-stake blockchain platform
+and home to the ada cryptocurrency. It is the first blockchain platform to
+evolve out of a scientific philosophy and a research-first driven approach.
+
+A stake pool is a reliable server node that holds and maintains the combined
+stake of various stakeholders in a single entity. Stake pools use the Cardano
+node to validate how the pool interacts with the network and are responsible
+for transaction processing and block production.
+
+WWW: https://github.com/input-output-hk/cardano-node/
